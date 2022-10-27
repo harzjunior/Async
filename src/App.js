@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Pizza";
+import Header from "./components/Header";
+import Four04 from "./components/404";
+import Async from "./pages/Async";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Header>
+          <Routes>
+            <Route path="/pizza" exact element={<Home />} />
+            <Route path="/async" element={<Async />} />
+            <Route path="/404" element={<Four04 />} />
+            <Route path="*" element={<Four04 />} />
+          </Routes>
+        </Header>
+      </BrowserRouter>
     </div>
   );
 }

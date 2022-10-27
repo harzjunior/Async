@@ -1,0 +1,30 @@
+import React from "react";
+
+//create an object
+let pokemonXHR = new XMLHttpRequest();
+
+const Demo = () => {
+  let url_poke_4 = "http://localhost:8010/moves";
+
+  //send a request
+  pokemonXHR.open("GET", url_poke_4);
+  pokemonXHR.send();
+
+  pokemonXHR.responseType = "json";
+
+  //callBack function
+  pokemonXHR.onload = function () {
+    if (pokemonXHR.status === 200) {
+      let pokemon = pokemonXHR.response;
+
+      pokemon.forEach((poke) => {
+        let pokeCard = poke.move.name;
+        console.log("pokeCard", pokeCard);
+      });
+    }
+  };
+
+  return <div>pokeCard</div>;
+};
+
+export default Demo;

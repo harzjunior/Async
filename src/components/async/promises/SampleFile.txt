@@ -1,0 +1,36 @@
+import React, { useEffect, useState } from "react";
+console.clear();
+
+const SampleFile = () => {
+  const [pizza, setPizza] = useState("");
+
+  let pizzaApi = "http://localhost:8008/firstMeu";
+
+
+  //================================Instead of the above example=======================================
+  useEffect(() => {
+    const setUp_6 = () => {
+      fetch(pizzaApi) //fetch pizza from API
+        .then((response) => {
+          if (!response.ok) {
+            throw Error("Could not fetch data at the moment!");
+          }
+          return response.json();
+        }) // convert to json
+        .then((data) => {
+          setPizza(data);
+          console.log(data);
+        }) // console log data when successful
+        .catch((error) => console.log(error)); // console log when there is error
+    };
+    setUp_6();
+  }, [pizzaApi]);
+
+  return (
+    <div>
+      <h2>SampleFile</h2>
+    </div>
+  );
+};
+
+export default SampleFile;

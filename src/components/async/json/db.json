@@ -1,0 +1,76 @@
+{
+  "details": [
+    {
+      "id": "STU001",
+      "name": "Alice Patrick",
+      "age": 24,
+      "results": {
+        "school": 85,
+        "high_school": 75,
+        "graduation": 70
+      },
+      "education": {
+        "graduation": {
+          "major": "Computers",
+          "minor": "Sociology"
+        }
+      }
+    },
+    {
+      "id": "STU002",
+      "name": "Adam Lee",
+      "age": 32,
+      "results": {
+        "school": 80,
+        "high_school": 58,
+        "graduation": 49
+      },
+      "education": {
+        "graduation": {
+          "major": "Biology",
+          "minor": "Chemistry"
+        }
+      }
+    },
+    {
+      "id": "STU003",
+      "name": "Rita Ora",
+      "age": 28,
+      "results": {
+        "school": 90,
+        "high_school": 70,
+        "graduation": 65
+      },
+      "education": {
+        "graduation": {
+          "major": "Art",
+          "minor": "IT"
+        }
+      }
+    },
+    {
+      "id": "STU004",
+      "name": "Raul Vadia",
+      "age": 23,
+      "results": {
+        "school": 95,
+        "high_school": 89,
+        "graduation": 84
+      },
+      "education": {
+        "graduation": {
+          "major": "IT",
+          "minor": "Social"
+        }
+      }
+    }
+  ],
+  "vote": [
+    {
+      "id": "VT001",
+      "vote": "Do you prefer Computer Science or Computer Engineering",
+      "answerA": "Computer Science",
+      "answerB": "Computer Engineering"
+    }
+  ]
+}

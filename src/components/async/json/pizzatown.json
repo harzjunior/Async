@@ -1,0 +1,146 @@
+{
+  "firstMenu": [
+    {
+      "id": 1,
+      "category": "Pizza",
+      "name": "Vesuvius",
+      "topping": ["Tomat", "Ost", "Skinka"],
+      "price": 79,
+      "rank": 3
+    },
+    {
+      "id": 2,
+      "category": "Pizza",
+      "name": "Hawaii",
+      "topping": ["Tomat", "Ost", "Skinka", "Ananas"],
+      "price": 79,
+      "rank": 1
+    },
+    {
+      "id": 3,
+      "category": "Pizza",
+      "name": "Parma",
+      "topping": ["Tomat", "Ost", "Parmaskinka", "Oliver", "Färska basilika"],
+      "price": 89,
+      "rank": 2
+    },
+    {
+      "id": 4,
+      "category": "Dryck",
+      "name": "Coca-cola, 33cl",
+      "price": 10
+    },
+    {
+      "id": 5,
+      "category": "Dryck",
+      "name": "Loka citron, 33cl",
+      "price": 10
+    },
+    {
+      "id": 6,
+      "category": "Tillbehör",
+      "name": "Pizzasallad",
+      "price": 0
+    },
+    {
+      "id": 7,
+      "category": "Tillbehör",
+      "name": "Bröd och smör",
+      "price": 10
+    }
+  ],
+  "secondMenu": [
+    {
+      "id": 1,
+      "category": "beverage",
+      "name": "Fanta",
+      "price": 79
+    },
+    {
+      "id": 2,
+      "category": "beverage",
+      "name": "Pepsi",
+      "price": 79
+    },
+    {
+      "id": 3,
+      "category": "beverage",
+      "name": "Sprite",
+      "price": 89
+    },
+    {
+      "id": 4,
+      "category": "beverage",
+      "name": "Coca-cola",
+      "price": 10
+    },
+    {
+      "id": 5,
+      "category": "beverage",
+      "name": "Loka citron",
+      "price": 10
+    },
+    {
+      "id": 6,
+      "category": "beverage",
+      "name": "Lemonade",
+      "price": 0
+    },
+    {
+      "id": 7,
+      "category": "beverage",
+      "name": "Ice Tea",
+      "price": 10
+    }
+  ],
+  "thirdMenu": [
+    {
+      "id": 1,
+      "category": "Pizza",
+      "name": "Pineapple Mix",
+      "topping": ["Tomat", "Ost", "Skinka"],
+      "price": 79,
+      "rank": 3
+    },
+    {
+      "id": 2,
+      "category": "Pizza",
+      "name": "Hawaii",
+      "topping": ["Tomat", "Ost", "Skinka", "Ananas"],
+      "price": 79,
+      "rank": 1
+    },
+    {
+      "id": 3,
+      "category": "Pizza",
+      "name": "Peperoni",
+      "topping": ["Tomat", "Ost", "Parmaskinka", "Oliver", "Färska basilika"],
+      "price": 89,
+      "rank": 2
+    },
+    {
+      "id": 4,
+      "category": "Dryck",
+      "name": "Chicken citron",
+      "price": 10
+    },
+    {
+      "id": 5,
+      "category": "Dryck",
+      "name": "Mix House",
+      "price": 10
+    },
+    {
+      "id": 6,
+      "category": "Tillbehör",
+      "name": "Pizzasallad",
+      "price": 0
+    },
+    {
+      "id": 7,
+      "category": "Tillbehör",
+      "name": "vegie Menu",
+      "price": 10
+    }
+  ]
+}
