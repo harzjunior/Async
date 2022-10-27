@@ -7,8 +7,8 @@ const Async = () => {
   return (
     <div>
       <DemoCbh />
-      <FetchDb />
       <SampleFile />
+      <FetchDb />
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React from "react";
-import formatDistanceToNow from "date-fns/formatDistanceToNow";
-import Img from "../img/logo1.jpg";
+import Img from "../img/margherita.png";
 import { v4 as uuidv4 } from "uuid";
 
 const FitnessDetails = ({ pizza }) => {

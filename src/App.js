@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Pizza";
+import Pizza from "./pages/Pizza";
 import Header from "./components/Header";
 import Four04 from "./components/404";
 import Async from "./pages/Async";
@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Header>
           <Routes>
-            <Route path="/pizza" exact element={<Home />} />
+            <Route path="/pizza" exact element={<Pizza />} />
             <Route path="/async" element={<Async />} />
             <Route path="/404" element={<Four04 />} />
             <Route path="*" element={<Four04 />} />
